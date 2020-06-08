@@ -6,7 +6,10 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad1c4cff-cbb8-4ec1-82c9-0749683e2dac" name="Default Changelist" comment="" />
+    <list default="true" id="ad1c4cff-cbb8-4ec1-82c9-0749683e2dac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_lib/src/main/java/com/example/java_lib/concurrent_coding/cyclicbarrier/YourRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_lib/src/main/java/com/example/java_lib/concurrent_coding/cyclicbarrier/YourRun.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +53,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java_lib/src/main/java/com/example/java_lib/concurrent_coding/cyclicbarrier/YourThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="297">
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java_lib/src/main/java/com/example/java_lib/concurrent_coding/cyclicbarrier/YourRun.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+              <folding>
+                <element signature="e#227#344#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,6 +95,9 @@
     <replaceStrings>
       <replace>*</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -113,6 +132,7 @@
         <option value="$PROJECT_DIR$/java_lib/src/main/java/com/example/java_lib/concurrent_coding/Run.java" />
         <option value="$PROJECT_DIR$/java_lib/src/main/java/com/example/java_lib/concurrent_coding/countdownlatch/Run.java" />
         <option value="$PROJECT_DIR$/java_lib/src/main/java/com/example/java_lib/concurrent_coding/cyclicbarrier/YourThread.java" />
+        <option value="$PROJECT_DIR$/java_lib/src/main/java/com/example/java_lib/concurrent_coding/cyclicbarrier/YourRun.java" />
       </list>
     </option>
   </component>
@@ -122,6 +142,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1097" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -226,17 +247,6 @@
               <item name="java_lib" type="462c0819:PsiDirectoryNode" />
               <item name="concurrent_coding" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AndroidLab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AndroidLab" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java_lib" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="java_lib" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent_coding" type="462c0819:PsiDirectoryNode" />
-              <item name="cyclicbarrier" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -245,6 +255,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="E:/developer/java/android/sdk" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -416,9 +427,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.3299356" />
+      <window_info content_ui="combo" id="Project" visible="true" weight="0.3299356" />
       <window_info id="Structure" side_tool="true" />
       <window_info id="Build Variants" side_tool="true" />
       <window_info id="Image Layers" />
@@ -427,7 +437,7 @@
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Run" visible="true" weight="0.4073252" />
+      <window_info active="true" anchor="bottom" id="Run" visible="true" weight="0.43063262" />
       <window_info anchor="bottom" id="Logcat" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="TODO" />
@@ -613,10 +623,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java_lib/src/main/java/com/example/java_lib/concurrent_coding/cyclicbarrier/YourThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="297">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_lib/src/main/java/com/example/java_lib/concurrent_coding/cyclicbarrier/YourRun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+          <folding>
+            <element signature="e#227#344#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
           </folding>
         </state>
       </provider>
