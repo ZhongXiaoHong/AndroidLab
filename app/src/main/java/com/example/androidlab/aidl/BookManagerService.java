@@ -120,6 +120,3 @@ public class BookManagerService extends Service {
     }
 }
 
-
-
-}
