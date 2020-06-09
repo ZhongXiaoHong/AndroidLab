@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <declare-styleable name="MBannerViewPager">
+        <attr name="viewpager" format="reference"></attr>
+        <attr name="banner_view_hollow_circle" format="reference"></attr>
+        <attr name="banner_view_solid_circle" format="reference"></attr>
+        <attr name="banner_view_solid_diameter" format="reference|dimension"></attr>
+        <attr name="banner_view_hollow_diameter" format="reference|dimension"></attr>
+        <attr name="is_indicator_outside" format="boolean"></attr>
+        <attr name="allow_repeat" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="IndexViewPager">
+        <attr name="hollow_circle" format="reference"></attr>
+        <attr name="solid_circle" format="reference"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="PullToRefreshView">
+        <attr name="pull_header_view" format="reference"></attr>
+        <attr name="pull_footer_view" format="reference"></attr>
+        <attr name="pull_content_view" format="reference"></attr>
+        <attr name="pull_mode" format="integer">
+            <enum name="none" value="0x0"></enum>
+            <enum name="pull_from_start" value="0x1"></enum>
+            <enum name="pull_from_end" value="0x2"></enum>
+            <enum name="both" value="0x3"></enum>
+            <enum name="manual_refresh_only" value="0x4"></enum>
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="WrapwordLayout">
+        <!--标签之间左右距离-->
+        <attr name="horizontalSpacing" format="reference|dimension" />
+        <!--标签行距-->
+        <attr name="verticalSpacing" format="reference|dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="AlbumSelectedView">
+        <!--标签之间左右距离-->
+        <attr name="album_max_number" format="integer" />
+        <attr name="album_adapter_image" format="reference" />
+        <attr name="album_adapter_image_add" format="reference" />
+        <attr name="album_video_wrap_content" format="boolean"/><!--为true的时候，表示视屏缩略图宽高按照内容缩放，否则为固定大小的正方形缩略图-->
+        <attr name="album_video_fix_image" format="boolean"/>
+
+    </declare-styleable>
+
+
+    <declare-styleable name="TimeView">
+        <attr name="time_content_view" format="reference"></attr>
+        <attr name="time_show_day" format="reference|boolean"></attr>
+        <attr name="time_status_none_color" format="reference|color"></attr>
+        <attr name="is_padded" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="SwitchButton">
+        <attr name="switch_thumb_drawable" format="reference" />
+        <attr name="switch_thumb_color" format="color|reference" />
+        <attr name="switch_thumb_margin" format="dimension|reference" />
+        <attr name="switch_thumb_marginTop" format="dimension|reference" />
+        <attr name="switch_thumb_marginBottom" format="dimension|reference" />
+        <attr name="switch_thumb_marginLeft" format="dimension|reference" />
+        <attr name="switch_thumb_marginRight" format="dimension|reference" />
+        <attr name="switch_thumb_width" format="dimension|reference" />
+        <attr name="switch_thumb_height" format="dimension|reference" />
+        <attr name="switch_thumb_radius" format="dimension|reference" />
+        <attr name="switch_back_radius" format="dimension|reference" />
+        <attr name="switch_back_drawable" format="reference" />
+        <attr name="switch_back_color" format="color|reference" />
+        <attr name="switch_fade_back" format="boolean" />
+        <attr name="switch_back_measure_ratio" format="float" />
+        <attr name="switch_animation_duration" format="integer" />
+        <attr name="switch_tint_color" format="color|reference" />
+        <attr name="switch_text_on" format="string" />
+        <attr name="switch_text_off" format="string" />
+        <attr name="switch_text_marginH" format="dimension" />
+        <attr name="switch_autoAdjustTextPosition" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="MaxBorderDraweeView">
+        <!--标签之间左右距离-->
+        <attr name="max_border_width" format="reference|dimension" />
+        <!--标签行距-->
+        <attr name="max_border_height" format="reference|dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="MDashLineView">
+        <attr name="dash_line_color" format="reference|color"></attr>
+        <attr name="dash_line_gap" format="reference|dimension"></attr>
+        <attr name="dash_line_width" format="integer"></attr>
+        <attr name="dash_line_orientation">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="LimitLinearLayout">
+        <attr name="limit_max_height" format="reference|dimension"></attr>
+        <attr name="limit_min_height" format="reference|dimension"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="ProgressBar">
+        <attr name="progressbar_line_color" format="reference|color"></attr>
+        <attr name="progressbar_back_color" format="reference|color"></attr>
+        <attr name="progressbar_before_color" format="reference|color"></attr>
+        <attr name="progressbar_round" format="reference|dimension"></attr>
+        <attr name="progressbar_outside_border_width" format="reference|dimension"></attr>
+        <attr name="progressbar_max_progress" format="integer"></attr>
+        <attr name="progressbar_current_progress" format="integer"></attr>
+        <attr name="progressbar_text_size" format="reference|dimension"></attr>
+        <attr name="progressbar_text_color" format="reference|color"></attr>
+        <attr name="progressbar_over_text_color" format="reference|color"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="UIButton">
+        <attr name="ui_button_normal_color" format="reference|color"></attr>
+        <attr name="ui_button_pressed_color" format="reference|color"></attr>
+        <attr name="ui_button_unable_color" format="reference|color"></attr>
+        <attr name="ui_button_checked_color" format="reference|color"></attr>
+        <attr name="ui_button_normal_line_color" format="reference|color"></attr>
+        <attr name="ui_button_pressed_line_color" format="reference|color"></attr>
+        <attr name="ui_button_unable_line_color" format="reference|color"></attr>
+        <attr name="ui_button_checked_line_color" format="reference|color"></attr>
+        <attr name="ui_button_normal_text_color" format="reference|color"></attr>
+        <attr name="ui_button_pressed_text_color" format="reference|color"></attr>
+        <attr name="ui_button_unable_text_color" format="reference|color"></attr>
+        <attr name="ui_button_checked_text_color" format="reference|color"></attr>
+        <attr name="ui_button_radius" format="reference|dimension"></attr>
+        <attr name="ui_button_left_top_radius" format="reference|dimension"></attr>
+        <attr name="ui_button_left_bottom_radius" format="reference|dimension"></attr>
+        <attr name="ui_button_right_top_radius" format="reference|dimension"></attr>
+        <attr name="ui_button_right_bottom_radius" format="reference|dimension"></attr>
+        <attr name="ui_button_show_border" format="boolean"></attr>
+        <attr name="ui_button_line_width" format="reference|dimension"></attr>
+        <attr name="ui_button_shape" format="enum">
+            <enum name="line" value="1" />
+            <enum name="oval" value="2" />
+            <enum name="rectangle" value="3" />
+            <enum name="ring" value="4" />
+        </attr>
+    </declare-styleable>
+
+
+</resources>
