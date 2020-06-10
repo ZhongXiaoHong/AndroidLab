@@ -24,6 +24,30 @@
             android:text="AIDL demo"
             />
 
+        <TextView
+            android:layout_margin="20dp"
+            android:onClick="dolongTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点击做很长时间的任务，这时间内不做任何其他事情，没有广播点击事件等等"
+            />
+
+        <EditText
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_margin="20dp"
+            android:onClick="dolongTimeInServiceMainThread"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="启动service,故意主线程做耗时操作"
+            />
+
+
+
+
 
 
     </LinearLayout>
